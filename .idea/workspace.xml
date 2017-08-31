@@ -2,8 +2,33 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="289643f9-d3af-4481-b05f-291d5fac7181" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/datafromnet/phantomjs_prac/for_ifeng/opunit/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/datafromnet/phantomjs_prac/for_ifeng/opunit/filterelems.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/datafromnet/phantomjs_prac/for_ifeng/opunit/funcs.py" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/datafromnet/phantomjs_prac/for_ifeng/temp/ifeng_auto0.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/datafromnet/phantomjs_prac/for_ifeng/temp/ifeng_auto1.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/datafromnet/phantomjs_prac/for_ifeng/temp/ifeng_auto10.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/datafromnet/phantomjs_prac/for_ifeng/temp/ifeng_auto11.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/datafromnet/phantomjs_prac/for_ifeng/temp/ifeng_auto12.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/datafromnet/phantomjs_prac/for_ifeng/temp/ifeng_auto13.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/datafromnet/phantomjs_prac/for_ifeng/temp/ifeng_auto14.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/datafromnet/phantomjs_prac/for_ifeng/temp/ifeng_auto15.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/datafromnet/phantomjs_prac/for_ifeng/temp/ifeng_auto16.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/datafromnet/phantomjs_prac/for_ifeng/temp/ifeng_auto17.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/datafromnet/phantomjs_prac/for_ifeng/temp/ifeng_auto18.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/datafromnet/phantomjs_prac/for_ifeng/temp/ifeng_auto2.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/datafromnet/phantomjs_prac/for_ifeng/temp/ifeng_auto3.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/datafromnet/phantomjs_prac/for_ifeng/temp/ifeng_auto4.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/datafromnet/phantomjs_prac/for_ifeng/temp/ifeng_auto5.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/datafromnet/phantomjs_prac/for_ifeng/temp/ifeng_auto6.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/datafromnet/phantomjs_prac/for_ifeng/temp/ifeng_auto7.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/datafromnet/phantomjs_prac/for_ifeng/temp/ifeng_auto8.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/datafromnet/phantomjs_prac/for_ifeng/temp/ifeng_auto9.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/init.patch" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/datafromnet/phantomjs_prac/for_ifeng/static_variable.py" afterPath="$PROJECT_DIR$/datafromnet/phantomjs_prac/for_ifeng/static_variable.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/datafromnet/phantomjs_prac/for_ifeng/temp/links-forum.txt" afterPath="$PROJECT_DIR$/datafromnet/phantomjs_prac/for_ifeng/temp/links-forum.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/datafromnet/phantomjs_prac/for_ifeng/wait_for_element.py" afterPath="$PROJECT_DIR$/datafromnet/phantomjs_prac/for_ifeng/wait_for_element.py" />
     </list>
     <ignored path="datafromnet/phantomjs_prac/temp/img.zip" />
     <ignored path="datafromnet/phantomjs_prac/temp/pythonscraping.png" />
@@ -151,16 +176,17 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/tfpra$selenium_proxy_prac.coverage" NAME="selenium_proxy_prac Coverage Results" MODIFIED="1503902324919" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/datafromnet/phantomjs_prac" />
     <SUITE FILE_PATH="coverage/tfpra$selenium_assert_prac.coverage" NAME="selenium_assert_prac Coverage Results" MODIFIED="1503889771608" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/datafromnet/phantomjs_prac" />
+    <SUITE FILE_PATH="coverage/tfpra$funcs.coverage" NAME="funcs Coverage Results" MODIFIED="1504180861661" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/datafromnet/phantomjs_prac/for_ifeng/opunit" />
     <SUITE FILE_PATH="coverage/tfpra$allneededurl.coverage" NAME="allneededurl Coverage Results" MODIFIED="1504066493854" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/datafromnet/phantomjs_prac/for_ifeng" />
     <SUITE FILE_PATH="coverage/tfpra$selenium_prac.coverage" NAME="selenium_prac Coverage Results" MODIFIED="1503889207241" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/datafromnet/phantomjs_prac" />
     <SUITE FILE_PATH="coverage/tfpra$req_prac.coverage" NAME="req_prac Coverage Results" MODIFIED="1504097761853" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/datafromnet/phantomjs_prac/for_ifeng" />
     <SUITE FILE_PATH="coverage/tfpra$selenium_screenshot.coverage" NAME="selenium_screenshot Coverage Results" MODIFIED="1503974182776" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/datafromnet/phantomjs_prac" />
     <SUITE FILE_PATH="coverage/tfpra$testocr.coverage" NAME="testocr Coverage Results" MODIFIED="1493891246768" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/simple" />
-    <SUITE FILE_PATH="coverage/tfpra$wait_for_element.coverage" NAME="wait_for_element Coverage Results" MODIFIED="1504094522786" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/datafromnet/phantomjs_prac/for_ifeng" />
+    <SUITE FILE_PATH="coverage/tfpra$wait_for_element.coverage" NAME="wait_for_element Coverage Results" MODIFIED="1504168307764" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/datafromnet/phantomjs_prac/for_ifeng" />
     <SUITE FILE_PATH="coverage/tfpra$request_post.coverage" NAME="request_post Coverage Results" MODIFIED="1504151780195" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/datafromnet/phantomjs_prac/procuracysys_prac" />
     <SUITE FILE_PATH="coverage/tfpra$raw_input_prac.coverage" NAME="raw_input_prac Coverage Results" MODIFIED="1503737724336" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/simple" />
     <SUITE FILE_PATH="coverage/tfpra$selenium_movemouse.coverage" NAME="selenium_movemouse Coverage Results" MODIFIED="1503919828746" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/datafromnet/phantomjs_prac" />
-    <SUITE FILE_PATH="coverage/tfpra$static_variable.coverage" NAME="static_variable Coverage Results" MODIFIED="1504096875817" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/datafromnet/phantomjs_prac/for_ifeng" />
+    <SUITE FILE_PATH="coverage/tfpra$static_variable.coverage" NAME="static_variable Coverage Results" MODIFIED="1504177149081" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/datafromnet/phantomjs_prac/for_ifeng" />
     <SUITE FILE_PATH="coverage/tfpra$prac.coverage" NAME="prac Coverage Results" MODIFIED="1492175055029" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/simple" />
   </component>
   <component name="CreatePatchCommitExecutor">
@@ -172,8 +198,8 @@
       <file leaf-file-name="static_variable.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/datafromnet/phantomjs_prac/for_ifeng/static_variable.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+            <state relative-caret-position="448">
+              <caret line="28" column="0" lean-forward="true" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
               <folding>
                 <element signature="e#16#39#0" expanded="true" />
               </folding>
@@ -184,8 +210,8 @@
       <file leaf-file-name="wait_for_element.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/datafromnet/phantomjs_prac/for_ifeng/wait_for_element.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="366">
-              <caret line="33" column="22" lean-forward="false" selection-start-line="33" selection-start-column="22" selection-end-line="33" selection-end-column="22" />
+            <state relative-caret-position="96">
+              <caret line="30" column="0" lean-forward="true" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
               <folding>
                 <element signature="e#14#55#0" expanded="true" />
               </folding>
@@ -193,8 +219,60 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
+      <file leaf-file-name="__init__.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/datafromnet/phantomjs_prac/for_ifeng/opunit/__init__.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="80">
+              <caret line="5" column="45" lean-forward="false" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="45" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="filterelems.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/datafromnet/phantomjs_prac/for_ifeng/opunit/filterelems.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="144">
+              <caret line="9" column="16" lean-forward="true" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+              <folding>
+                <element signature="e#14#43#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="funcs.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/datafromnet/phantomjs_prac/for_ifeng/opunit/funcs.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="192">
+              <caret line="12" column="33" lean-forward="true" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="urlparse.py" pinned="false" current-in-tab="false">
+        <entry file="file://C:/Program Files/python2/Lib/urlparse.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="848">
+              <caret line="338" column="24" lean-forward="true" selection-start-line="338" selection-start-column="24" selection-end-line="338" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="links-forum.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/datafromnet/phantomjs_prac/for_ifeng/temp/links-forum.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="669">
+              <caret line="1509" column="43" lean-forward="false" selection-start-line="1509" selection-start-column="43" selection-end-line="1509" selection-end-column="43" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="thread-.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/datafromnet/phantomjs_prac/for_ifeng/temp/thread-.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -203,14 +281,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="request_post.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/datafromnet/phantomjs_prac/procuracysys_prac/request_post.py">
+      <file leaf-file-name="req_forum.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/datafromnet/phantomjs_prac/for_ifeng/temp/req_forum.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="400">
-              <caret line="28" column="20" lean-forward="false" selection-start-line="28" selection-start-column="20" selection-end-line="28" selection-end-column="20" />
-              <folding>
-                <element signature="e#14#29#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="0">
+              <caret line="0" column="1" lean-forward="true" selection-start-line="0" selection-start-column="1" selection-end-line="0" selection-end-column="1" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -257,11 +333,15 @@
         <option value="$PROJECT_DIR$/datafromnet/phantomjs_prac/for_ifeng/allneededurl.py" />
         <option value="$PROJECT_DIR$/datafromnet/phantomjs_prac/procuracysys_prac/__init__.py" />
         <option value="$PROJECT_DIR$/datafromnet/phantomjs_prac/for_ifeng/temp/ifeng_auto0.txt" />
-        <option value="$PROJECT_DIR$/datafromnet/phantomjs_prac/for_ifeng/static_variable.py" />
         <option value="$PROJECT_DIR$/datafromnet/phantomjs_prac/for_ifeng/req_prac.py" />
-        <option value="$PROJECT_DIR$/datafromnet/phantomjs_prac/for_ifeng/wait_for_element.py" />
         <option value="$PROJECT_DIR$/datafromnet/phantomjs_prac/procuracysys_prac/request_post.py" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/datafromnet/phantomjs_prac/for_ifeng/temp/links-forum.txt" />
+        <option value="$PROJECT_DIR$/datafromnet/phantomjs_prac/for_ifeng/static_variable.py" />
+        <option value="$PROJECT_DIR$/datafromnet/phantomjs_prac/for_ifeng/wait_for_element.py" />
+        <option value="$PROJECT_DIR$/datafromnet/phantomjs_prac/for_ifeng/opunit/funcs.py" />
+        <option value="$PROJECT_DIR$/datafromnet/phantomjs_prac/for_ifeng/opunit/__init__.py" />
+        <option value="$PROJECT_DIR$/datafromnet/phantomjs_prac/for_ifeng/opunit/filterelems.py" />
       </list>
     </option>
   </component>
@@ -272,8 +352,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="727" />
-    <option name="width" value="1200" />
+    <option name="x" value="431" />
+    <option name="width" value="1496" />
     <option name="height" value="1087" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -305,6 +385,176 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="External Libraries" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="&lt; Python 2.7.9 virtualenv at F:\software\developertools\py\pyCharm\charm2016\pycharmproject\tfpra\env (2) &gt;" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tfpra" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="&lt; Python 2.7.9 virtualenv at F:\software\developertools\py\pyCharm\charm2016\pycharmproject\tfpra\env (2) &gt;" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tfpra" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="&lt; Python 2.7.9 virtualenv at F:\software\developertools\py\pyCharm\charm2016\pycharmproject\tfpra\env (2) &gt;" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="env" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tfpra" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="&lt; Python 2.7.9 virtualenv at F:\software\developertools\py\pyCharm\charm2016\pycharmproject\tfpra\env (2) &gt;" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tfpra" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="&lt; Python 2.7.9 virtualenv at F:\software\developertools\py\pyCharm\charm2016\pycharmproject\tfpra\env (2) &gt;" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="site-packages" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tfpra" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="&lt; Python 2.7.9 virtualenv at F:\software\developertools\py\pyCharm\charm2016\pycharmproject\tfpra\env (2) &gt;" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="site-packages" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="selenium" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tfpra" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="&lt; Python 2.7.9 virtualenv at F:\software\developertools\py\pyCharm\charm2016\pycharmproject\tfpra\env (2) &gt;" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="site-packages" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="selenium" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webdriver" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tfpra" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="&lt; Python 2.7.9 virtualenv at F:\software\developertools\py\pyCharm\charm2016\pycharmproject\tfpra\env (2) &gt;" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="site-packages" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="selenium" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webdriver" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="remote" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -407,6 +657,32 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tfpra" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tfpra" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="datafromnet" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="phantomjs_prac" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="for_ifeng" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="opunit" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -444,26 +720,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.request_post">
-    <configuration default="false" name="allneededurl" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/datafromnet/phantomjs_prac/for_ifeng" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="tfpra" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/datafromnet/phantomjs_prac/for_ifeng/allneededurl.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.funcs">
     <configuration default="false" name="request_post" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -535,6 +792,25 @@
       <module name="tfpra" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/datafromnet/phantomjs_prac/for_ifeng/req_prac.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="funcs" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/datafromnet/phantomjs_prac/for_ifeng/opunit" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="tfpra" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/datafromnet/phantomjs_prac/for_ifeng/opunit/funcs.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -723,19 +999,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.allneededurl" />
-      <item index="1" class="java.lang.String" itemvalue="Python.request_post" />
-      <item index="2" class="java.lang.String" itemvalue="Python.static_variable" />
-      <item index="3" class="java.lang.String" itemvalue="Python.wait_for_element" />
-      <item index="4" class="java.lang.String" itemvalue="Python.req_prac" />
+      <item index="0" class="java.lang.String" itemvalue="Python.request_post" />
+      <item index="1" class="java.lang.String" itemvalue="Python.static_variable" />
+      <item index="2" class="java.lang.String" itemvalue="Python.wait_for_element" />
+      <item index="3" class="java.lang.String" itemvalue="Python.req_prac" />
+      <item index="4" class="java.lang.String" itemvalue="Python.funcs" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.request_post" />
-        <item index="1" class="java.lang.String" itemvalue="Python.req_prac" />
-        <item index="2" class="java.lang.String" itemvalue="Python.static_variable" />
-        <item index="3" class="java.lang.String" itemvalue="Python.wait_for_element" />
-        <item index="4" class="java.lang.String" itemvalue="Python.allneededurl" />
+        <item index="0" class="java.lang.String" itemvalue="Python.funcs" />
+        <item index="1" class="java.lang.String" itemvalue="Python.static_variable" />
+        <item index="2" class="java.lang.String" itemvalue="Python.wait_for_element" />
+        <item index="3" class="java.lang.String" itemvalue="Python.request_post" />
+        <item index="4" class="java.lang.String" itemvalue="Python.req_prac" />
       </list>
     </recent_temporary>
     <configuration default="true" type="tests" factoryName="Attests">
@@ -784,23 +1060,30 @@
       <option name="project" value="LOCAL" />
       <updated>1504160784061</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="init">
+      <created>1504161445930</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1504161445930</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="727" y="0" width="1200" height="1087" extended-state="0" />
+    <frame x="431" y="0" width="1496" height="1087" extended-state="0" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13947369" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20194986" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32914045" sideWeight="0.50350875" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32914045" sideWeight="0.49649122" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.48062828" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" x="622" y="58" width="676" height="963" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23060797" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" x="622" y="58" width="676" height="963" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4171908" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41657922" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4025157" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.8898216" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -831,134 +1114,11 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="11" />
+      <option name="time" value="12" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/datafromnet/phantomjs_prac/temp/img/http___mmbiz_qpic_cn_mmbiz_agEQQ7NdJSOek2tSicsIHWRGhpo4tE199icJbj4FJVa5zswM82OkUvRuMaYeoRC8ZSDuib93DYWiaxwjeuB3qia4PWg_640_.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/datafromnet/phantomjs_prac/temp/img/http___mmbiz_qpic_cn_mmbiz_agEQQ7NdJSOek2tSicsIHWRGhpo4tE199icPnLrnoc1fVKjPQdh6aCicNiaaKGWLxoXaRJdUdvoSmibAM3VsKt8icWcQ_640_.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/datafromnet/phantomjs_prac/temp/img/http___mmbiz_qpic_cn_mmbiz_png_9jT5jEITJY2UKZoXxttDIdoeia7QWyhUWJzBJJEEn2l096051yP2G5UBGyCKuKawrbQNgtxIUD4jeiaic02RQZbibg_640_wx_fmt=png.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/datafromnet/phantomjs_prac/temp/img/http___mmbiz_qpic_cn_mmbiz_png_9jT5jEITJY2UKZoXxttDIdoeia7QWyhUW9poru8mr3eo48HXENnhEhLK8Zng83J6BvNN2sOLr5AKOF70bQNicskQ_640_wx_fmt=png.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/datafromnet/phantomjs_prac/temp/img/http___mmbiz_qpic_cn_mmbiz_gif_9jT5jEITJY0seuL5oS3j854xZCicticUjorAryFhrIhGTso3jibSIL9IzKjVXFtpMeYFoQkyyvRHlu7AEoho2vbdQ_0_wx_fmt=gif.git">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/datafromnet/phantomjs_prac/temp/img/http___mmbiz_qpic_cn_mmbiz_n9nkKLwTPLhmUSEEUR3uTfBkv2fsWBolC19RJEXeheruXkEHW3gCibzNm2kd4djf4ibyIS0xaFSWiapgQCNUVF7sw_640_jpeg_.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/datafromnet/phantomjs_prac/temp/img/http___mmbiz_qpic_cn_mmbiz_agEQQ7NdJSOek2tSicsIHWRGhpo4tE199354aiaG9ISWO6wbN47kepCSMiboFiabPr2yBmUABOKmjibMWQibhm6w2ZTA_640_.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/datafromnet/phantomjs_prac/temp/img/http___mmbiz_qpic_cn_mmbiz_agEQQ7NdJSOek2tSicsIHWRGhpo4tE1999wEBcd68sYOWpiawLsTsIfCoaZB97G5D8gDVm2ONTDVQS5WvJTU7DyQ_640_.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/datafromnet/phantomjs_prac/temp/img/http___mmbiz_qpic_cn_mmbiz_agEQQ7NdJSOek2tSicsIHWRGhpo4tE199TYEGiaibYp4UAuh77jSzVupYoQhV6XuicQGeU4UBicCQ2wZ9YVSicUBpLmw_640_.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/datafromnet/phantomjs_prac/temp/img/http___mmbiz_qpic_cn_mmbiz_agEQQ7NdJSOek2tSicsIHWRGhpo4tE199tSCt308pqzMXdCtnTeQVepYiblPzHUzckHIMDib3CcJpjHIawibmibf3CA_640_.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/datafromnet/phantomjs_prac/temp/img/http___mmbiz_qpic_cn_mmbiz_agEQQ7NdJSOek2tSicsIHWRGhpo4tE199tQpPSjOyAP2JAK1LsOrc4QqH9ocsm197mSjTHopiaayiaicicBibUZ7AxyQ_640_.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/datafromnet/phantomjs_prac/for_ifeng/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="64">
-          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../env/Lib/site-packages/selenium/webdriver/remote/webdriver.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="308" column="47" lean-forward="true" selection-start-line="308" selection-start-column="47" selection-end-line="308" selection-end-column="47" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/datafromnet/phantomjs_prac/procuracysys_prac/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="32">
-          <caret line="2" column="16" lean-forward="false" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/datafromnet/phantomjs_prac/selenium_movemouse.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/datafromnet/phantomjs_prac/for_ifeng/http___bbs_auto_ifeng_com.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="27" lean-forward="true" selection-start-line="0" selection-start-column="27" selection-end-line="0" selection-end-column="27" />
-          <folding>
-            <element signature="n#style#0;n#table#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#b#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/datafromnet/phantomjs_prac/selenium_assert_prac.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="12" column="36" lean-forward="true" selection-start-line="12" selection-start-column="36" selection-end-line="12" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/datafromnet/phantomjs_prac/for_ifeng/allneededurl.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="32">
-          <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding>
-            <element signature="e#15#45#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Program Files/python2/Lib/site-packages/selenium/webdriver/remote/webdriver.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="390" column="8" lean-forward="false" selection-start-line="390" selection-start-column="8" selection-end-line="390" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/datafromnet/phantomjs_prac/selenium_screenshot.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="576">
@@ -1008,34 +1168,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/datafromnet/phantomjs_prac/for_ifeng/temp/thread-.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/datafromnet/phantomjs_prac/for_ifeng/temp/req_forum.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="52" lean-forward="false" selection-start-line="0" selection-start-column="52" selection-end-line="0" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/datafromnet/phantomjs_prac/for_ifeng/req_prac.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="208">
           <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
           <folding>
-            <element signature="e#14#29#0" expanded="true" />
+            <element signature="e#14#29#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/datafromnet/phantomjs_prac/for_ifeng/temp/ifeng_auto0.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -1151,47 +1290,226 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/datafromnet/phantomjs_prac/for_ifeng/temp/links-forum.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="20" column="46" lean-forward="true" selection-start-line="20" selection-start-column="46" selection-end-line="20" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/datafromnet/phantomjs_prac/for_ifeng/static_variable.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-          <folding>
-            <element signature="e#16#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/datafromnet/phantomjs_prac/procuracysys_prac/request_post.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="400">
           <caret line="28" column="20" lean-forward="false" selection-start-line="28" selection-start-column="20" selection-end-line="28" selection-end-column="20" />
           <folding>
-            <element signature="e#14#29#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/datafromnet/phantomjs_prac/for_ifeng/wait_for_element.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="366">
-          <caret line="33" column="22" lean-forward="false" selection-start-line="33" selection-start-column="22" selection-end-line="33" selection-end-column="22" />
-          <folding>
-            <element signature="e#14#55#0" expanded="true" />
+            <element signature="e#14#29#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/datafromnet/phantomjs_prac/for_ifeng/temp/ifeng_auto0.html">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/datafromnet/phantomjs_prac/for_ifeng/temp/ifeng_auto1010195.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/datafromnet/phantomjs_prac/for_ifeng/temp/ifeng_auto11480094.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/datafromnet/phantomjs_prac/for_ifeng/temp/ifeng_auto25191793.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/datafromnet/phantomjs_prac/for_ifeng/temp/ifeng_auto34342148.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/datafromnet/phantomjs_prac/for_ifeng/temp/ifeng_auto45038647.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/datafromnet/phantomjs_prac/for_ifeng/temp/ifeng_auto52819272.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/datafromnet/phantomjs_prac/for_ifeng/temp/ifeng_auto57254510.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/datafromnet/phantomjs_prac/for_ifeng/temp/ifeng_auto66400459.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/datafromnet/phantomjs_prac/for_ifeng/temp/ifeng_auto70149820.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/datafromnet/phantomjs_prac/for_ifeng/temp/ifeng_auto89597584.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/datafromnet/phantomjs_prac/for_ifeng/temp/ifeng_auto92523151.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/datafromnet/phantomjs_prac/for_ifeng/temp/ifeng_auto94026743.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Program Files/python2/Lib/site-packages/selenium/webdriver/remote/webdriver.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="584">
+          <caret line="233" column="46" lean-forward="true" selection-start-line="233" selection-start-column="46" selection-end-line="233" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Program Files/python2/Lib/site-packages/selenium/webdriver/remote/remote_connection.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="564">
+          <caret line="451" column="33" lean-forward="false" selection-start-line="451" selection-start-column="33" selection-end-line="451" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Program Files/python2/Lib/urlparse.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="848">
+          <caret line="338" column="24" lean-forward="true" selection-start-line="338" selection-start-column="24" selection-end-line="338" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/datafromnet/phantomjs_prac/for_ifeng/static_variable.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="448">
+          <caret line="28" column="0" lean-forward="true" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+          <folding>
+            <element signature="e#16#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/datafromnet/phantomjs_prac/for_ifeng/temp/thread-.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/datafromnet/phantomjs_prac/for_ifeng/temp/req_forum.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="1" lean-forward="true" selection-start-line="0" selection-start-column="1" selection-end-line="0" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/datafromnet/phantomjs_prac/for_ifeng/temp/links-forum.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="669">
+          <caret line="1509" column="43" lean-forward="false" selection-start-line="1509" selection-start-column="43" selection-end-line="1509" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/datafromnet/phantomjs_prac/for_ifeng/wait_for_element.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="30" column="0" lean-forward="true" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+          <folding>
+            <element signature="e#14#55#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../env/Lib/re.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="219">
+          <caret line="190" column="0" lean-forward="true" selection-start-line="190" selection-start-column="0" selection-end-line="190" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/datafromnet/phantomjs_prac/for_ifeng/opunit/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="5" column="45" lean-forward="false" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/datafromnet/phantomjs_prac/for_ifeng/opunit/filterelems.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="9" column="16" lean-forward="true" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+          <folding>
+            <element signature="e#14#43#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/datafromnet/phantomjs_prac/for_ifeng/opunit/funcs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="12" column="33" lean-forward="true" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
           <folding />
         </state>
       </provider>
