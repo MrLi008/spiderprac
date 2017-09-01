@@ -4,6 +4,7 @@ from selenium import webdriver
 from selenium .webdriver import Chrome
 import time
 import json
+import traceback
 
 def getlogon():
 
@@ -24,12 +25,21 @@ def getlogon():
 def postdatato(url, driver=Chrome()):
     try:
         data = {
-            'id':1,
-            "investigate_subtype":"test_investigate_subtype2",
-            "investigate_content":"test_investigate_content2",
-            "investigate_score":1,
-            "investigate_submit_time":1504075719000,
-            "investigate_type":"test_investigate_type2",
+            "investigateLegalCase":{
+                "id":1,
+                "investigate_subtype":"test_investigate_subtype2",
+                "investigate_content":"test_investigate_content2",
+                "investigate_score":1,
+                "investigate_submit_time":1504075719000,
+                "investigate_type":"test_investigate_type2",
+            },
+
+            "id": 1,
+            "investigate_subtype": "test_investigate_subtype2",
+            "investigate_content": "test_investigate_content2",
+            "investigate_score": 1,
+            "investigate_submit_time": 1504075719000,
+            "investigate_type": "test_investigate_type2",
         }
         # postresult = requests.post(url, data=data)
         cookies = driver.get_cookies()
@@ -43,13 +53,13 @@ def postdatato(url, driver=Chrome()):
         # postresult = requests.post(url, data=data, cookies=cookies,headers=headers)
         # url = 'http://127.0.0.1:8080/infomanage.html'
         postresult = requests.post(url, cookies=cookies,headers=headers,data=data)
-        print postresult, postresult.text
-        result = json.load(postresult.text)
+        print postresult, type(postresult.text), len(postresult.text)
+        result = json.loads(postresult.text, encoding='utf-8')
         print result.get('data', None)
 
     except Exception as e:
-        print e
-        # return None
+        traceback.print_exc()
+        # return None这个是测试用例
 
     # return postresult
 

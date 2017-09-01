@@ -47,6 +47,9 @@ def get_all_a(driver, url, limitformat='',links=set(), depth=0, maxdepth=1):
             # print '--------ye', href
             if href in links:
                 continue
+            with open('temp/links_forum.txt', 'wb+') as f:
+                f.write(href)
+                f.write('\n')
             links.add(href)
             get_all_a(driver, href, limitformat=limitformat,links=links,depth=depth+1,maxdepth=maxdepth)
 
