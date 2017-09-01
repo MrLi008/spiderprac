@@ -4,6 +4,7 @@ from selenium import webdriver
 from selenium.webdriver import Chrome, PhantomJS
 from datamodels import ControlThread, HrefSet
 import traceback
+import threading
 from staticvariable import phantomjsroot, filters
 
 from funcs import visiable, filterlinksbypattern
@@ -31,12 +32,13 @@ from funcs import visiable, filterlinksbypattern
 
 if __name__ == '__main__':
 
-    url = 'http://bbs.auto.ifeng.com'
+    # url = 'http://bbs.auto.ifeng.com'
+    url = 'http://bbs.auto.ifeng.com/forum-1020774-1.html'
 
     # driver = Chrome()
     driver = PhantomJS(phantomjsroot)
 
-    hrefset = HrefSet(url=url)
+    hrefset = HrefSet()
     print hrefset
 
     driver.get(url)
@@ -48,4 +50,6 @@ if __name__ == '__main__':
     hrefset.add(links_)
 
     ct = ControlThread(hrefset=hrefset)
-    ct.run()
+    t = threading.Thread(target=ct.run)
+    t.start()
+    t.join()
