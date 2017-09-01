@@ -131,6 +131,7 @@ def filterlinksbypattern(links, filters):
     result = []
     if isinstance(filters, list):
         for filter_ in filters:
+
             cmp = re.compile(filter_)
 
             for link in links:
