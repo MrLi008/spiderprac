@@ -5,20 +5,16 @@ import threading
 import traceback
 from funcs import  visiable, filterlinksbypattern,phantomjsroot
 from staticvariable import filters
+import codecs
 from selenium import webdriver
 
 class HrefSet:
-    def __init__(self,**kwargs):
-        self.kwargs = dict()
-        # init kwargs
-        self.kwargs['driver'] = webdriver.PhantomJS(phantomjsroot)
-        self.kwargs['url'] = kwargs.get('url')
-        self.kwargs['hrefset'] = self
+    def __init__(self):
 
 
         self.hrefset = set()
         self.hreflist = []
-        self.MAXTOP = 4000
+        self.MAXTOP = 1000
         self.top = 0
         self.pop = -1
 
@@ -29,14 +25,14 @@ class HrefSet:
     def getnext(self):
         self.lock.acquire()
 
+        result = None
         self.pop += 1
 
-        result = None
 
-        if self.pop < self.top and self.top < self.MAXTOP:
+        if self.pop < self.top:
             result = self.hreflist[self.pop]
 
-        print 'in href set, getnext: ', self.pop, self.hreflist[self.pop]
+            print 'in href set, getnext: ',self.top, self.pop, self.hreflist[self.pop]
 
         self.lock.release()
 
@@ -48,24 +44,23 @@ class HrefSet:
         self.lock.acquire()
 
 
-        if self.top >= self.MAXTOP:
-            return
-        if isinstance(href, list):
+        if self.top <= self.MAXTOP:
+            if isinstance(href, list):
 
-            for h in href:
-                if h not in self.hrefset:
-                    self.hrefset.add(h)
-                    self.hreflist.append(h)
+                for h in href:
+                    if h not in self.hrefset:
+                        self.hrefset.add(h)
+                        self.hreflist.append(h)
+
+                        self.top += 1
+            else:
+                if href not in self.hrefset:
+                    self.hrefset.add(href)
+                    self.hreflist.append(href)
 
                     self.top += 1
-                    print 'in href set, add', self.top
-        else:
-            if href not in self.hrefset:
-                self.hrefset.add(href)
-                self.hreflist.append(href)
 
-                self.top += 1
-                print 'in href set, add'
+        print 'in href set, add', self.top, self.pop
 
         self.lock.release()
 
@@ -75,7 +70,19 @@ class HrefSet:
         links = visiable(driver)
         links = filterlinksbypattern(links, filters)
         self.add(links)
-        print self.pop, self.top, len(links)
+
+        # 获取论坛主题
+        thread_substring = 'thread_subject'
+        try:
+            subject = driver.find_element_by_id(thread_substring)
+            with codecs.open('temp/subject.txt', 'ab+', encoding='utf-8') as f:
+                f.write(subject.text+'\t'+url+'\n')
+            print subject.text
+        except Exception  as e:
+            print ' no this id'
+
+
+        print '-'*100, self.pop, self.top, len(links)
 
 
 
@@ -94,7 +101,7 @@ class ControlThread:
         nextdata = self.hrefset.getnext()
         if nextdata == None:
             return False
-
+        print 'next data: ', nextdata
         self.hrefset.func(url=nextdata,driver=driver)
         return True
 
@@ -104,14 +111,21 @@ class ControlThread:
 
     def run(self):
         threadlist = []
-
+        drivers = []
         for i in range(self.threadnumbser):
             driver = webdriver.PhantomJS(phantomjsroot)
+            drivers.append(driver)
+
+        for i in range(self.threadnumbser):
             t = threading.Thread(target=self.function_,
-                               args=(i, driver))
+                               args=(i, drivers[i]))
 
             threadlist.append(t)
+
             t.start()
 
+        print 'finish init'
         for t in threadlist:
+
             t.join()
+            print 'finish....', t

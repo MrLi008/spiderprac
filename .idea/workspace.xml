@@ -2,10 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="289643f9-d3af-4481-b05f-291d5fac7181" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/datafromnet/phantomjs_prac/for_ifeng/opunit/datamodels.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/datafromnet/phantomjs_prac/for_ifeng/opunit/dbopunit.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/datafromnet/phantomjs_prac/for_ifeng/opunit/pymain.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/datafromnet/phantomjs_prac/for_ifeng/opunit/staticvariable.py" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/datafromnet/phantomjs_prac/for_ifeng/temp/ifeng_auto0.html" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/datafromnet/phantomjs_prac/for_ifeng/temp/ifeng_auto1.html" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/datafromnet/phantomjs_prac/for_ifeng/temp/ifeng_auto10.html" afterPath="" />
@@ -26,11 +22,8 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/datafromnet/phantomjs_prac/for_ifeng/temp/ifeng_auto8.html" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/datafromnet/phantomjs_prac/for_ifeng/temp/ifeng_auto9.html" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/datafromnet/phantomjs_prac/for_ifeng/opunit/__init__.py" afterPath="$PROJECT_DIR$/datafromnet/phantomjs_prac/for_ifeng/opunit/__init__.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/datafromnet/phantomjs_prac/for_ifeng/opunit/funcs.py" afterPath="$PROJECT_DIR$/datafromnet/phantomjs_prac/for_ifeng/opunit/funcs.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/datafromnet/phantomjs_prac/for_ifeng/opunit/datamodels.py" afterPath="$PROJECT_DIR$/datafromnet/phantomjs_prac/for_ifeng/opunit/datamodels.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/datafromnet/phantomjs_prac/for_ifeng/temp/links-forum.txt" afterPath="$PROJECT_DIR$/datafromnet/phantomjs_prac/for_ifeng/temp/links-forum.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/datafromnet/phantomjs_prac/for_ifeng/wait_for_element.py" afterPath="$PROJECT_DIR$/datafromnet/phantomjs_prac/for_ifeng/wait_for_element.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/datafromnet/phantomjs_prac/procuracysys_prac/request_post.py" afterPath="$PROJECT_DIR$/datafromnet/phantomjs_prac/procuracysys_prac/request_post.py" />
     </list>
     <ignored path="datafromnet/phantomjs_prac/temp/img.zip" />
     <ignored path="datafromnet/phantomjs_prac/temp/pythonscraping.png" />
@@ -185,11 +178,12 @@
     <SUITE FILE_PATH="coverage/tfpra$selenium_screenshot.coverage" NAME="selenium_screenshot Coverage Results" MODIFIED="1503974182776" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/datafromnet/phantomjs_prac" />
     <SUITE FILE_PATH="coverage/tfpra$testocr.coverage" NAME="testocr Coverage Results" MODIFIED="1493891246768" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/simple" />
     <SUITE FILE_PATH="coverage/tfpra$wait_for_element.coverage" NAME="wait_for_element Coverage Results" MODIFIED="1504168307764" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/datafromnet/phantomjs_prac/for_ifeng" />
-    <SUITE FILE_PATH="coverage/tfpra$pymain.coverage" NAME="pymain Coverage Results" MODIFIED="1504254302050" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/datafromnet/phantomjs_prac/for_ifeng/opunit" />
+    <SUITE FILE_PATH="coverage/tfpra$pymain.coverage" NAME="pymain Coverage Results" MODIFIED="1504261083029" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/datafromnet/phantomjs_prac/for_ifeng/opunit" />
     <SUITE FILE_PATH="coverage/tfpra$request_post.coverage" NAME="request_post Coverage Results" MODIFIED="1504231648774" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/datafromnet/phantomjs_prac/procuracysys_prac" />
     <SUITE FILE_PATH="coverage/tfpra$raw_input_prac.coverage" NAME="raw_input_prac Coverage Results" MODIFIED="1503737724336" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/simple" />
     <SUITE FILE_PATH="coverage/tfpra$selenium_movemouse.coverage" NAME="selenium_movemouse Coverage Results" MODIFIED="1503919828746" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/datafromnet/phantomjs_prac" />
     <SUITE FILE_PATH="coverage/tfpra$static_variable.coverage" NAME="static_variable Coverage Results" MODIFIED="1504177149081" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/datafromnet/phantomjs_prac/for_ifeng" />
+    <SUITE FILE_PATH="coverage/tfpra$datamodels.coverage" NAME="datamodels Coverage Results" MODIFIED="1504257441939" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/datafromnet/phantomjs_prac/for_ifeng/opunit" />
     <SUITE FILE_PATH="coverage/tfpra$prac.coverage" NAME="prac Coverage Results" MODIFIED="1492175055029" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/simple" />
   </component>
   <component name="CreatePatchCommitExecutor">
@@ -197,64 +191,7 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="pymain.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/datafromnet/phantomjs_prac/for_ifeng/opunit/pymain.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="576">
-              <caret line="42" column="16" lean-forward="false" selection-start-line="42" selection-start-column="16" selection-end-line="42" selection-end-column="16" />
-              <folding>
-                <element signature="e#15#45#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ghostdriver.log" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/datafromnet/phantomjs_prac/for_ifeng/opunit/ghostdriver.log">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="staticvariable.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/datafromnet/phantomjs_prac/for_ifeng/opunit/staticvariable.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="96">
-              <caret line="6" column="1" lean-forward="false" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="datamodels.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/datafromnet/phantomjs_prac/for_ifeng/opunit/datamodels.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="265">
-              <caret line="51" column="18" lean-forward="false" selection-start-line="51" selection-start-column="18" selection-end-line="51" selection-end-column="18" />
-              <folding>
-                <element signature="e#31#47#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="funcs.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/datafromnet/phantomjs_prac/for_ifeng/opunit/funcs.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2480">
-              <caret line="155" column="33" lean-forward="false" selection-start-line="155" selection-start-column="33" selection-end-line="155" selection-end-column="33" />
-              <folding>
-                <element signature="e#14#25#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -306,9 +243,11 @@
         <option value="$PROJECT_DIR$/datafromnet/phantomjs_prac/procuracysys_prac/request_post.py" />
         <option value="$PROJECT_DIR$/datafromnet/phantomjs_prac/for_ifeng/opunit/dbopunit.py" />
         <option value="$PROJECT_DIR$/datafromnet/phantomjs_prac/for_ifeng/opunit/staticvariable.py" />
-        <option value="$PROJECT_DIR$/datafromnet/phantomjs_prac/for_ifeng/opunit/pymain.py" />
         <option value="$PROJECT_DIR$/datafromnet/phantomjs_prac/for_ifeng/opunit/funcs.py" />
+        <option value="$PROJECT_DIR$/datafromnet/phantomjs_prac/for_ifeng/opunit/pymain.py" />
+        <option value="$PROJECT_DIR$/datafromnet/phantomjs_prac/for_ifeng/opunit/temp/subject.txt" />
         <option value="$PROJECT_DIR$/datafromnet/phantomjs_prac/for_ifeng/opunit/datamodels.py" />
+        <option value="$PROJECT_DIR$/datafromnet/phantomjs_prac/for_ifeng/opunit/ghostdriver.log" />
       </list>
     </option>
   </component>
@@ -319,9 +258,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="714" />
-    <option name="width" value="1213" />
-    <option name="height" value="1087" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1096" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -342,9 +282,40 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tfpra" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="&lt; Python 2.7.9 virtualenv at F:\software\developertools\py\pyCharm\charm2016\pycharmproject\tfpra\env (2) &gt;" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tfpra" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="&lt; Python 2.7.9 virtualenv at F:\software\developertools\py\pyCharm\charm2016\pycharmproject\tfpra\env (2) &gt;" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
           <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" value="tfpra" />
@@ -497,8 +468,39 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tfpra" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tfpra" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="datafromnet" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="phantomjs_prac" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="for_ifeng" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="opunit" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="temp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -572,25 +574,6 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="wait_for_element" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/datafromnet/phantomjs_prac/for_ifeng" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="tfpra" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/datafromnet/phantomjs_prac/for_ifeng/wait_for_element.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <method />
-    </configuration>
     <configuration default="false" name="funcs" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -624,6 +607,25 @@
       <module name="tfpra" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/datafromnet/phantomjs_prac/for_ifeng/opunit/pymain.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="datamodels" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/datafromnet/phantomjs_prac/for_ifeng/opunit" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="tfpra" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/datafromnet/phantomjs_prac/for_ifeng/opunit/datamodels.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -814,17 +816,17 @@
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Python.request_post" />
       <item index="1" class="java.lang.String" itemvalue="Python.static_variable" />
-      <item index="2" class="java.lang.String" itemvalue="Python.wait_for_element" />
-      <item index="3" class="java.lang.String" itemvalue="Python.funcs" />
-      <item index="4" class="java.lang.String" itemvalue="Python.pymain" />
+      <item index="2" class="java.lang.String" itemvalue="Python.funcs" />
+      <item index="3" class="java.lang.String" itemvalue="Python.pymain" />
+      <item index="4" class="java.lang.String" itemvalue="Python.datamodels" />
     </list>
     <recent_temporary>
       <list size="5">
         <item index="0" class="java.lang.String" itemvalue="Python.pymain" />
-        <item index="1" class="java.lang.String" itemvalue="Python.funcs" />
-        <item index="2" class="java.lang.String" itemvalue="Python.request_post" />
-        <item index="3" class="java.lang.String" itemvalue="Python.static_variable" />
-        <item index="4" class="java.lang.String" itemvalue="Python.wait_for_element" />
+        <item index="1" class="java.lang.String" itemvalue="Python.datamodels" />
+        <item index="2" class="java.lang.String" itemvalue="Python.funcs" />
+        <item index="3" class="java.lang.String" itemvalue="Python.request_post" />
+        <item index="4" class="java.lang.String" itemvalue="Python.static_variable" />
       </list>
     </recent_temporary>
     <configuration default="true" type="tests" factoryName="Attests">
@@ -887,23 +889,37 @@
       <option name="project" value="LOCAL" />
       <updated>1504181948711</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="init">
+      <created>1504254757069</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1504254757069</updated>
+    </task>
+    <task id="LOCAL-00006" summary="init">
+      <created>1504259638562</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1504259638562</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="714" y="0" width="1213" height="1087" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2567216" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15938166" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32914045" sideWeight="0.50350875" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32914045" sideWeight="0.49649122" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.15618448" sideWeight="0.50303555" order="10" side_tool="true" content_ui="tabs" x="622" y="58" width="676" height="963" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29283488" sideWeight="0.50303555" order="10" side_tool="true" content_ui="tabs" x="622" y="58" width="676" height="963" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2327044" sideWeight="0.49696445" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23189926" sideWeight="0.49696445" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3924449" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.61434513" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -927,13 +943,6 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/datafromnet/phantomjs_prac/for_ifeng/opunit/funcs.py</url>
-          <line>139</line>
-          <option name="timeStamp" value="12" />
-        </line-breakpoint>
-      </breakpoints>
       <default-breakpoints>
         <breakpoint type="python-exception">
           <properties notifyOnTerminate="true" exception="BaseException">
@@ -941,13 +950,11 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="13" />
+      <option name="time" value="14" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/datafromnet/phantomjs_prac/for_ifeng/temp/ifeng_auto3.html" />
-    <entry file="file://$PROJECT_DIR$/datafromnet/phantomjs_prac/for_ifeng/temp/ifeng_auto4.html" />
     <entry file="file://$PROJECT_DIR$/datafromnet/phantomjs_prac/for_ifeng/temp/ifeng_auto5.html" />
     <entry file="file://$PROJECT_DIR$/datafromnet/phantomjs_prac/for_ifeng/temp/ifeng_auto8.html" />
     <entry file="file://$PROJECT_DIR$/datafromnet/phantomjs_prac/for_ifeng/temp/ifeng_auto9.html" />
@@ -1019,6 +1026,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="219">
           <caret line="190" column="0" lean-forward="true" selection-start-line="190" selection-start-column="0" selection-end-line="190" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1085,10 +1093,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://C:/Program Files/python2/Lib/threading.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="765" column="36" lean-forward="false" selection-start-line="765" selection-start-column="36" selection-end-line="765" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/datafromnet/phantomjs_prac/for_ifeng/opunit/ghostdriver.log">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="1552">
+          <caret line="97" column="0" lean-forward="false" selection-start-line="97" selection-start-column="0" selection-end-line="97" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/datafromnet/phantomjs_prac/for_ifeng/opunit/temp/subject.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7216">
+          <caret line="451" column="0" lean-forward="true" selection-start-line="451" selection-start-column="0" selection-end-line="451" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1096,21 +1120,18 @@
     <entry file="file://$PROJECT_DIR$/datafromnet/phantomjs_prac/for_ifeng/opunit/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
-          <caret line="9" column="3" lean-forward="true" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
+          <caret line="9" column="3" lean-forward="false" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/datafromnet/phantomjs_prac/for_ifeng/opunit/dbopunit.py">
+    <entry file="file://$PROJECT_DIR$/datafromnet/phantomjs_prac/for_ifeng/opunit/pymain.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/datafromnet/phantomjs_prac/for_ifeng/opunit/filterelems.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="9" column="16" lean-forward="true" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+        <state relative-caret-position="260">
+          <caret line="21" column="28" lean-forward="true" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
+          <folding>
+            <element signature="e#15#45#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1122,33 +1143,41 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/datafromnet/phantomjs_prac/for_ifeng/opunit/pymain.py">
+    <entry file="file://$PROJECT_DIR$/datafromnet/phantomjs_prac/for_ifeng/opunit/datamodels.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="576">
-          <caret line="42" column="16" lean-forward="false" selection-start-line="42" selection-start-column="16" selection-end-line="42" selection-end-column="16" />
+        <state relative-caret-position="-637">
+          <caret line="16" column="26" lean-forward="false" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
           <folding>
-            <element signature="e#15#45#0" expanded="true" />
+            <element signature="e#31#47#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/datafromnet/phantomjs_prac/for_ifeng/opunit/funcs.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2480">
-          <caret line="155" column="33" lean-forward="false" selection-start-line="155" selection-start-column="33" selection-end-line="155" selection-end-column="33" />
+        <state relative-caret-position="227">
+          <caret line="139" column="39" lean-forward="false" selection-start-line="139" selection-start-column="39" selection-end-line="139" selection-end-column="39" />
           <folding>
             <element signature="e#14#25#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/datafromnet/phantomjs_prac/for_ifeng/opunit/datamodels.py">
+    <entry file="file://$PROJECT_DIR$/datafromnet/phantomjs_prac/for_ifeng/opunit/filterelems.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="265">
-          <caret line="51" column="18" lean-forward="false" selection-start-line="51" selection-start-column="18" selection-end-line="51" selection-end-column="18" />
+        <state relative-caret-position="144">
+          <caret line="9" column="16" lean-forward="false" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
           <folding>
-            <element signature="e#31#47#0" expanded="true" />
+            <element signature="e#14#43#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/datafromnet/phantomjs_prac/for_ifeng/opunit/dbopunit.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
